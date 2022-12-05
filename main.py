@@ -41,8 +41,8 @@ import arifmeticprogram
 #ex32.sum_of_digits()
 
 import exhome2
-#exhome2.find_number()  # Пошук номерного знаку в масиві данних
-#exhome2.sum_of_digits()  # Підрахунок суми цифр в номерному знаку
+exhome2.find_number()  # Пошук номерного знаку в масиві данних
+exhome2.sum_of_digits()  # Підрахунок суми цифр в номерному знаку
 exhome2.coun_unic_elements()
 
 
