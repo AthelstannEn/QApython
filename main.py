@@ -23,6 +23,10 @@ import arifmeticprogram
 
 #a = float(input("Введіть розхід в американських од.: на 100 milles"))
 #x = float(a * 3.78)
+
+
+
+
 #print("Розіхд в канадц.од: ", x)
 
 #import ex16
@@ -45,5 +49,8 @@ import arifmeticprogram
 #exhome2.find_number()  # Пошук номерного знаку в масиві данних
 #exhome2.sum_of_digits()  # Підрахунок суми цифр в номерному знаку
 
+# lamda функция без имени
 
+a = lambda x , a , b : 2+1+1
 
+print(a)
