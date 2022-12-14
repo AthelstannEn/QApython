@@ -30,6 +30,7 @@ def check_number():
         print(number[2 : 8])
         sum_of_digits(number)
 
+
     if len(number)<8 or len(number) >8:
         return print('False')
     else:
