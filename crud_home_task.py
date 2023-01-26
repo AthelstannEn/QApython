@@ -75,6 +75,7 @@ def test_update_user(change_data):
     }
 
 
+
     user_link = change_data["created_user_url"]
     response = requests.post(user_link, user_post_update_data, auth=(login, password)).json()
     assert response.status_code == 200
