@@ -19,10 +19,11 @@ def inial_headers():
     }
     return headers
 
+
 @pytest.fixture(scope='session')
 def inial_body():
     data = {
-        "login": "10382702",
+        "login": "1038276872",
         "password": "BarbaraNext#$"
     }
     return data

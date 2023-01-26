@@ -19,6 +19,7 @@ def test_check_ping():
   return pingstatus
 
 
+
 def test_check_google_ping():
   hostname = "google.com.ua"
   response = os.system("ping -c 1 " + hostname)
@@ -31,6 +32,7 @@ def test_check_google_ping():
     f.seek(0, os.SEEK_END)
     json.dump(pingstatus, f, sort_keys=True, indent=4)
   return pingstatus
+
 
 
 def test_check_stackoverflov_status():

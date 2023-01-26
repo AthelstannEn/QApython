@@ -10,6 +10,7 @@ def test_get_locations_90210():
     assert response.status_code == 200
 
 
+
 def test_get_locations_90218923():
     response = requests.get("http://api.zippopotam.us/us/90218923")
     assert response.status_code == 404
